@@ -1,6 +1,6 @@
 {
   "name": "flora-csv",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CSV data source for Flora",
   "main": "index.js",
   "scripts": {
