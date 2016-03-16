@@ -1,6 +1,6 @@
 {
   "name": "flora-csv",
-  "version": "0.1.0",
+  "version": "0.6.0",
   "description": "CSV data source for Flora",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,11 @@
     "name": "BörseGo AG",
     "email": "it@boerse-go.de"
   },
-  "homepage": "https://github.com/godmodelabs/flora-mysql",
+  "homepage": "https://github.com/godmodelabs/flora-csv",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/godmodelabs/flora-mysql.git"
+    "url": "https://github.com/godmodelabs/flora-csv.git"
   },
   "contributors": [
     {
