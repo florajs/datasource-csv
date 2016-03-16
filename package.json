@@ -19,13 +19,20 @@
   },
   "contributors": [
     {
+      "name": "Marco Baumgartl",
+      "email": "marco.baumgartl@boerse-go.de"
+    },
+    {
       "name": "Nico Kaiser",
       "email": "nico.kaiser@boerse-go.de"
+    },
+    {
+      "name": "Mark Plomer",
+      "email": "mark.plomer@boerse-go.de"
     }
   ],
   "engines": {
-    "node": ">=0.10.0",
-    "iojs": ">=2.0"
+    "node": ">=0.10.0"
   },
   "dependencies": {
     "csv-parse": "^1.0.1",
