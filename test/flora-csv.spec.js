@@ -54,10 +54,10 @@ describe('flora-csv DataSource', function () {
                 done();
             });
         });
-        
+
         describe('attributes', function () {
             it('should return only selected attributes', function (done) {
-                request.attributes = ['id', 'birthday']
+                request.attributes = ['id', 'birthday'];
                 ds.prepare(request);
                 ds.process(request, function (err, results) {
                     if (err) return done(err);
