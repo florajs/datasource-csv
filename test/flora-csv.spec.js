@@ -35,7 +35,7 @@ describe('flora-csv DataSource', function () {
             ds = new FloraCsv(api);
             request = {
                 delimiter: ';',
-                query: csv,
+                data: csv,
                 attributes: ['id', 'name', 'birthday']
             };
         });

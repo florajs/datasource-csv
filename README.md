@@ -14,9 +14,11 @@ Usage
 <?xml version="1.0" encoding="utf-8"?>
 <resource primaryKey="id" xmlns:flora="urn:flora:options">
     <flora:dataSource type="csv" delimiter=";" quote="">
-        id;name;birthday
-        1;Alice;1979-12-31
-        2;Bob;1977-06-11
+        <flora:option name="data">
+            id;name;birthday
+            1;Alice;1979-12-31
+            2;Bob;1977-06-11
+        </flora:option>
     </flora:dataSource>
     <id type="int"/>
     <name/>
