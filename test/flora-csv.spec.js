@@ -172,7 +172,7 @@ describe('flora-csv DataSource', function () {
                 ]];
                 ds.prepare(request);
                 ds.process(request, function (err, results) {
-                    expect(err).to.be.an('object');
+                    expect(err).to.be.an('error');
                     done();
                 });
             });
