@@ -13,10 +13,7 @@
   },
   "homepage": "https://github.com/godmodelabs/flora-csv",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/godmodelabs/flora-csv.git"
-  },
+  "repository": "godmodelabs/flora-csv",
   "contributors": [
     {
       "name": "Marco Baumgartl",
