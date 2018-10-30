@@ -4,7 +4,6 @@
   "description": "CSV data source for Flora",
   "main": "index.js",
   "scripts": {
-    "bamboo": "mocha -R mocha-bamboo-reporter",
     "test": "eslint . && mocha",
     "lint": "eslint ."
   },
@@ -44,7 +43,6 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "mocha": "^5.2.0",
-    "mocha-bamboo-reporter": "^1.1.1",
     "pre-commit": "^1.2.2"
   }
 }
