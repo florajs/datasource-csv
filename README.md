@@ -1,5 +1,4 @@
-Flora CSV DataSource
-====================
+# Flora CSV DataSource
 
 [![Build Status](https://travis-ci.org/godmodelabs/flora-csv.svg?branch=master)](https://travis-ci.org/godmodelabs/flora-csv)
 [![NPM version](https://badge.fury.io/js/flora-csv.svg)](https://www.npmjs.com/package/flora-csv)
@@ -7,8 +6,7 @@ Flora CSV DataSource
 
 Simple CSV data source for [Flora](https://github.com/godmodelabs/flora).
 
-Usage
------
+## Usage
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -26,8 +24,6 @@ Usage
 </resource>
 ```
 
-
-License
--------
+## License
 
 [MIT](LICENSE)
