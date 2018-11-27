@@ -33,13 +33,13 @@
     "node": ">=10"
   },
   "dependencies": {
-    "csv-parse": "^3.2.0",
-    "flora-errors": "^0.9.0"
+    "csv-parse": "^4.0.1",
+    "flora-errors": "^0.9.1"
   },
   "devDependencies": {
     "bunyan": "^1.8.12",
     "chai": "^4.2.0",
-    "eslint": "^5.8.0",
+    "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "^3.0.0",
     "mocha": "^5.2.0",
