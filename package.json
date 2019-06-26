@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "csv-parse": "^4.4.3",
-    "flora-errors": "^0.9.1"
+    "flora-errors": "^2.0.0"
   },
   "devDependencies": {
     "bunyan": "^1.8.12",
