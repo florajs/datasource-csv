@@ -94,7 +94,10 @@ describe('flora-csv DataSource', () => {
 
             it('should implement AND', async () => {
                 request.filter = [
-                    [{ attribute: 'id', value: '2', operator: 'equal' }, { attribute: 'name', value: 'Bob', operator: 'equal' }]
+                    [
+                        { attribute: 'id', value: '2', operator: 'equal' },
+                        { attribute: 'name', value: 'Bob', operator: 'equal' }
+                    ]
                 ];
                 ds.prepare(request);
                 const results = await ds.process(request);
@@ -105,7 +108,10 @@ describe('flora-csv DataSource', () => {
 
             it('should implement AND (empty result)', async () => {
                 request.filter = [
-                    [{ attribute: 'id', value: '2', operator: 'equal' }, { attribute: 'name', value: 'Alice', operator: 'equal' }]
+                    [
+                        { attribute: 'id', value: '2', operator: 'equal' },
+                        { attribute: 'name', value: 'Alice', operator: 'equal' }
+                    ]
                 ];
                 ds.prepare(request);
                 const results = await ds.process(request);
@@ -129,10 +135,10 @@ describe('flora-csv DataSource', () => {
                 ]);
             });
 
-            it('should throw on invalid filter', done => {
+            it('should throw on invalid filter', (done) => {
                 request.filter = [[{ attribute: 'id', value: '2', operator: 'greater' }]];
                 ds.prepare(request);
-                ds.process(request).catch(err => {
+                ds.process(request).catch((err) => {
                     expect(err).to.be.an('error');
                     done();
                 });
