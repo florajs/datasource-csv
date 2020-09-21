@@ -3,13 +3,14 @@
 'use strict';
 
 const { expect } = require('chai');
-const bunyan = require('bunyan');
+const nullLogger = require('abstract-logging');
 
 const FloraCsv = require('../lib/index');
 
-const api = {
-    log: bunyan.createLogger({ name: 'null', streams: [] })
-};
+const log = nullLogger;
+log.child = () => log;
+
+const api = { log };
 
 describe('flora-csv DataSource', () => {
     describe('interface', () => {
