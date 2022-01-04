@@ -1,8 +1,8 @@
-# flora-csv
+# @florajs/datasource-csv
 
 ![](https://github.com/florajs/datasource-csv/workflows/ci/badge.svg)
-[![NPM version](https://img.shields.io/npm/v/flora-csv.svg?style=flat)](https://www.npmjs.com/package/flora-csv)
-[![NPM downloads](https://img.shields.io/npm/dm/flora-csv.svg?style=flat)](https://www.npmjs.com/package/flora-csv)
+[![NPM version](https://img.shields.io/npm/v/@florajs/datasource-csv.svg?style=flat)](https://www.npmjs.com/package/@florajs/datasource-csv)
+[![NPM downloads](https://img.shields.io/npm/dm/@florajs/datasource-csv.svg?style=flat)](https://www.npmjs.com/package/@florajs/datasource-csv)
 
 Simple CSV data source for [Flora](https://github.com/florajs/flora).
 

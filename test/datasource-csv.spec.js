@@ -10,7 +10,7 @@ log.child = () => log;
 
 const api = { log };
 
-describe('flora-csv DataSource', () => {
+describe('datasource-csv', () => {
     describe('interface', () => {
         const ds = new FloraCsv(api);
         it('should export a query function', () => {

@@ -1,5 +1,5 @@
 {
-  "name": "flora-csv",
+  "name": "@florajs/datasource-csv",
   "version": "2.0.0",
   "description": "CSV data source for Flora",
   "main": "lib/index.js",
@@ -15,6 +15,10 @@
     "name": "BörseGo AG",
     "email": "it@boerse-go.de"
   },
+  "keywords": [
+    "florajs",
+    "csv"
+  ],
   "homepage": "https://github.com/florajs/datasource-csv",
   "license": "MIT",
   "repository": "florajs/datasource-csv",
@@ -36,13 +40,13 @@
     "node": ">=12"
   },
   "dependencies": {
-    "csv-parse": "^5.0.3",
-    "flora-errors": "^2.1.0"
+    "csv-parse": "^5.0.4",
+    "@florajs/errors": "^3.0.0"
   },
   "devDependencies": {
     "abstract-logging": "^2.0.1",
     "chai": "^4.3.4",
-    "eslint": "^8.5.0",
+    "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "mocha": "^9.1.3",
