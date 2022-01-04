@@ -1,10 +1,10 @@
 # Flora CSV DataSource
 
-![](https://github.com/godmodelabs/flora-csv/workflows/ci/badge.svg)
+![](https://github.com/florajs/datasource-csv/workflows/ci/badge.svg)
 [![NPM version](https://img.shields.io/npm/v/flora-csv.svg?style=flat)](https://www.npmjs.com/package/flora-csv)
 [![NPM downloads](https://img.shields.io/npm/dm/flora-csv.svg?style=flat)](https://www.npmjs.com/package/flora-csv)
 
-Simple CSV data source for [Flora](https://github.com/godmodelabs/flora).
+Simple CSV data source for [Flora](https://github.com/florajs/flora).
 
 ## Usage
 

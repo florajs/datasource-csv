@@ -15,9 +15,9 @@
     "name": "BörseGo AG",
     "email": "it@boerse-go.de"
   },
-  "homepage": "https://github.com/godmodelabs/flora-csv",
+  "homepage": "https://github.com/florajs/datasource-csv",
   "license": "MIT",
-  "repository": "godmodelabs/flora-csv",
+  "repository": "florajs/datasource-csv",
   "contributors": [
     {
       "name": "Marco Baumgartl",
