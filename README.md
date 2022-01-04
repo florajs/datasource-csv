@@ -1,4 +1,4 @@
-# Flora CSV DataSource
+# flora-csv
 
 ![](https://github.com/florajs/datasource-csv/workflows/ci/badge.svg)
 [![NPM version](https://img.shields.io/npm/v/flora-csv.svg?style=flat)](https://www.npmjs.com/package/flora-csv)
