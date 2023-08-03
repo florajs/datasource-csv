@@ -37,7 +37,7 @@
     }
   ],
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "dependencies": {
     "csv-parse": "^5.4.0",
